@@ -16,14 +16,9 @@ public class ModItems {
     // 4. make it a relevant model in models,
     // 5. plop down it's texture in textures.
 
-    public static final DeferredItem<Item> RAW_VITALUM = ITEMS.register("raw_vitalum",
-            () -> new Item(new Item.Properties()));
-
-    public static final DeferredItem<Item> VITALUM_INGOT = ITEMS.register("vitalum_ingot",
-            () -> new Item(new Item.Properties()));
-
-    public static final DeferredItem<Item> VITALUM_NUGGET = ITEMS.register("vitalum_nugget",
-            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> RAW_VITALUM = ITEMS.register("raw_vitalum", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> VITALUM_INGOT = ITEMS.register("vitalum_ingot", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> VITALUM_NUGGET = ITEMS.register("vitalum_nugget", () -> new Item(new Item.Properties()));
 
 
     public static void register(IEventBus eventBus) {
