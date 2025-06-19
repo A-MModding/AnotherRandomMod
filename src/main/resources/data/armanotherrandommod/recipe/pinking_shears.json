@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {"item": "minecraft:iron_ingot"},
+    "B": {"item": "armanotherrandommod:vitalum_block"},
+    "C": {"item": "minecraft:stick"}
+  },
+  "pattern": [
+    " A ",
+    "ABC",
+    " C "
+  ],
+  "result": {"count": 1 , "id": "armanotherrandommod:pinking_shears"}
+}

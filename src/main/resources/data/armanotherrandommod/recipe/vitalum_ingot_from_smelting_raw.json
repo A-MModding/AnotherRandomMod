@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "group": "vitalum_ingot",
+  "ingredient": {"item": "armanotherrandommod:raw_vitalum"},
+  "result": { "count": 1 , "id": "armanotherrandommod:vitalum_ingot"}
+}

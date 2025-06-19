@@ -1,6 +1,7 @@
 package net.barrnone.anotherrandommod.item;
 
 import net.barrnone.anotherrandommod.AnotherRandomMod;
+import net.barrnone.anotherrandommod.item.custom.HeadhunterItem;
 import net.minecraft.world.item.Item;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredItem;
@@ -19,7 +20,8 @@ public class ModItems {
     public static final DeferredItem<Item> RAW_VITALUM = ITEMS.register("raw_vitalum", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> VITALUM_INGOT = ITEMS.register("vitalum_ingot", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> VITALUM_NUGGET = ITEMS.register("vitalum_nugget", () -> new Item(new Item.Properties()));
-
+    public static final DeferredItem<Item> PINKING_SHEARS = ITEMS.register("pinking_shears", ()-> new HeadhunterItem(new Item.Properties()
+            .durability(8)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

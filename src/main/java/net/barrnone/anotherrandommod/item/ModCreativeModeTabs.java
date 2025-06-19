@@ -26,6 +26,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.VITALUM_INGOT);
                         output.accept(ModItems.VITALUM_NUGGET);
                         output.accept(ModBlocks.VITALUM_BLOCK);
+                        output.accept(ModItems.PINKING_SHEARS);
                     }).build());
 
 
