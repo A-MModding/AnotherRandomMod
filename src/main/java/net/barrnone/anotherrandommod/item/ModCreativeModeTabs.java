@@ -21,6 +21,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.armanotherrandommod.another_random_mod_tab"))
                     .displayItems((parameters, output)->{
                         output.accept(ModBlocks.VITALUM_ORE);
+                        output.accept(ModBlocks.DEEPSLATE_VITALUM_ORE);
                         output.accept(ModItems.RAW_VITALUM);
                         output.accept(ModItems.VITALUM_INGOT);
                         output.accept(ModItems.VITALUM_NUGGET);

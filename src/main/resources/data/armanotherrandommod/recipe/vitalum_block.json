@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {"item": "armanotherrandommod:vitalum_ingot"}
+  },
+  "pattern": [
+    "AAA",
+    "AAA",
+    "AAA"
+  ],
+  "result": {"count": 1 , "id": "armanotherrandommod:vitalum_block"}
+}

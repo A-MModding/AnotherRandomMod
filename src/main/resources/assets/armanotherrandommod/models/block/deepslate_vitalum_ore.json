@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "armanotherrandommod:block/deepslate_vitalum_ore"
+  }
+}
